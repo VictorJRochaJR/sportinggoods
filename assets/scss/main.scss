@@ -1,0 +1,27 @@
+@import "./_variables.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./_overrides.scss";
+@import "./custom.scss";
+@import "./loaders.scss";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMjUwNDkyfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+}
+
+main {
+  flex-grow: 1;
+}
+
+
+.card-img-top { 
+  max-width: 300px;
+  max-height: 200px;
+}
+
+
+
+
