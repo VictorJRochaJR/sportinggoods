@@ -7,6 +7,7 @@ export default class Product {
         this.price = price
         this.quantity = quantity
         this.id = id
+
     }
 }
 
